@@ -1,0 +1,87 @@
+.footer {
+    background-color: #252525;
+    margin-top: -17px;
+
+    &__info {
+        display: flex;
+        padding-top: 137px;
+        gap: 100px;
+        padding-bottom: 104px;
+    }
+
+    &__list {
+        margin-top: 20px;
+        width: 262px;
+    }
+
+    &__logo {
+        margin-bottom: 25px;
+    }
+
+    &__link {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+        color: #FFFFFF;
+        opacity: 70%;
+
+        &:hover {
+            color: #DC780B;
+        }
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20.16px;
+        color: #FFFFFF;
+        padding-bottom: 26px;
+        cursor: pointer;
+
+        &:hover {
+            color: #DC780B;
+        }
+    }
+
+    &__item {
+        margin-bottom: 10px;
+    }
+
+    &__item1 {
+        display: flex;
+        gap: 10px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .footer__info {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .footer__info {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .footer__info {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: -40px;
+    }
+
+    .footer__list {
+        width: 202px;
+    }
+}

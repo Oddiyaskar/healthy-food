@@ -1,0 +1,167 @@
+.great {
+    margin-top: 213px;
+    text-align: center;
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        color: #DC780B;
+        padding-bottom: 12px;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #000000;
+        padding-bottom: 23px;
+    }
+
+    &__textt {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 750px;
+        margin-left: 17%;
+        margin-bottom: 17px;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+    }
+
+    &__text1 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 506px;
+        margin-left: 28%;
+        margin-bottom: 20px;
+    }
+
+    &__icon {
+        margin-left: 15%;
+        cursor: pointer;
+    }
+
+    &__img {
+        margin-left: 50%;
+    }
+
+    &__icons {
+        margin-left: 26%;
+        cursor: pointer;
+    }
+
+    &__iconca {
+        margin-left: 58%;
+        cursor: pointer;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        color: #000000;
+        padding-left: 56%;
+        padding-top: 32px;
+        padding-bottom: 6px;
+    }
+
+    &__text2 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.06px;
+        color: #000000;
+        opacity: 70%;
+        padding-left: 56%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .great {
+        text-align: left;
+    }
+
+    .great__textt {
+        margin-left: 0px;
+        width: 570px;
+    }
+
+    .great__icon {
+        margin-left: 0px;
+    }
+
+    .great__text1 {
+        margin-left: 50px;
+    }
+
+    .great__img {
+        margin-left: 190px;
+    }
+
+    .great__icons {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 636px) {
+    .great__icon {
+        display: none;
+    }
+
+    .great__icons {
+        display: none;
+    }
+
+    .great__text1 {
+        margin-left: 0px;
+    }
+
+    .great__img {
+        margin-left: 10px;
+    }
+
+    .great__iconca {
+        margin-left: 40px;
+    }
+
+    .great__title {
+        padding-left: 10px;
+    }
+
+    .great__text2 {
+        padding-left: 30px;
+    }
+
+    .great__text1 {
+        width: 200px;
+    }
+
+    .great__textt {
+        width: 200px;
+        text-align: center;
+        margin-left: -10px;
+    }
+}

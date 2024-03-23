@@ -1,0 +1,127 @@
+.take {
+    background-color: #FBF1E7;
+    margin-top: 187px;
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        position: absolute;
+        left: 62%;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        color: #DC780B;
+        padding-top: 114px;
+        padding-left: 97px;
+        padding-bottom: 5px;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 40.63px;
+        color: #150C01;
+        width: 430px;
+        margin-left: 97px;
+        margin-bottom: 29px;
+    }
+
+    &__textt {
+        margin: 0;
+        padding: 0;
+        width: 555px;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #150C01;
+        opacity: 70%;
+        margin-left: 97px;
+        margin-bottom: 39px;
+    }
+
+    &__icon {
+        margin-left: 97px;
+        margin-bottom: 129px;
+        cursor: pointer;
+    }
+
+    &__icons {
+        margin-left: 30px;
+        margin-bottom: 129px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 1065px) {
+    .take .container {
+        flex-direction: column;
+    }
+
+    .take__img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 655px) {
+    .take__text {
+        padding-left: 0px;
+    }
+
+    .take__heading {
+        margin-left: 0px;
+    }
+
+    .take__textt {
+        margin-left: 0px;
+        width: 465px;
+    }
+
+    .take__icon {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .take__heading {
+        width: 300px;
+    }
+
+    .take__textt {
+        width: 300px;
+    }
+
+    .take__icons {
+        margin-left: 2px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .take__icons {
+        margin-top: -115px;
+        margin-left: 0px;
+    }
+
+    .take__heading {
+        width: 200px;
+        font-size: 25px;
+    }
+
+    .take__textt {
+        font-size: 14px;
+        width: 200px;
+    }
+}

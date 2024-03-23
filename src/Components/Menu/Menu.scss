@@ -1,0 +1,219 @@
+.menu {
+    margin-top: 115px;
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        color: #DC780B;
+        padding-bottom: 9px;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    &__textt {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        width: 748px;
+        margin-left: 17%;
+        color: #150C01;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-left: -30px;
+        margin-top: 60px;
+    }
+
+    &__item {
+        border: 1px solid #0000001A;
+        border-radius: 75px 10px 10px 10px;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 24px;
+        width: 240px;
+        margin-top: 21px;
+        margin-left: 25px;
+    }
+
+    &__headline {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 24px;
+        padding-top: 21px;
+        padding-left: 35px;
+    }
+
+    &__text1 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #150C01;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__btn {
+        color: #FFFFFF;
+        background-color: #DC780B;
+        border: 1px solid #DC780B;
+        border-radius: 5px;
+        width: 36px;
+        height: 34px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        cursor: pointer;
+
+        &:hover {
+            color: #DC780B;
+            background-color: #FFFFFF;
+        }
+    }
+
+    &__icon {
+        margin-left: 186px;
+        cursor: pointer;
+
+    }
+
+    &__button {
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        color: #DC780B;
+        border: 1px solid #DC780B;
+        background-color: #FFFFFF;
+        padding: 12px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 45%;
+        margin-bottom: 30px;
+
+        &:hover {
+            background-color: #DC780B;
+            color: #FFFFFF;
+        }
+    }
+}
+
+@media only screen and (max-width: 1185px) {
+    .menu__list {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+
+    .menu__text1 {
+        width: 346px;
+    }
+
+    .menu__item {
+        width: 360px;
+    }
+
+    .menu__textt {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .menu__list {
+        display: grid; 
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -40px;
+    }
+
+    .menu__textt {
+        margin-left: 0px;
+        width: 350px;
+    }
+
+    .menu__text {
+        text-align: left;
+    }
+
+    .menu__heading {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .menu__item {
+        width: 160px;
+    }
+
+    .menu__info {
+        flex-direction: column;
+    }
+
+    .menu__headline {
+        padding-left: 0px;
+    }
+
+    .menu__title {
+        padding-left: 0px;
+        width: 160px;
+    }
+
+    .menu__text1 {
+        padding-left: 5px;
+        width: 180px;
+    }
+
+    .menu__icon  {
+        margin-left: 10px;
+    }
+
+    .menu__textt {
+        width: 180px;
+    }
+
+    .menu__btn {
+        margin-left: 5px;
+    }
+
+    .menu__button {
+        margin-left: 0px;
+    }
+}

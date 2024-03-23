@@ -1,0 +1,105 @@
+.about {
+    margin-top: 124px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 97px;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 20%;
+        color: #DC780B;
+        padding-bottom: 10px;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 40.63px;
+        color: #150C01;
+        width: 430px;
+        margin-bottom: 30px;
+    }
+
+    &__textt {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #150C01;
+        width: 470px;
+        margin-bottom: 29px;
+    }
+
+    &__btn {
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        color: #FFFFFF;
+        border: 1.5px solid #DC780B;
+        background-color: #DC780B;
+        padding: 12px 34px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            color: #DC780B;
+            background-color: #FFFFFF;
+        }
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+    .about .container {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about__img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about__heading {
+        font-size: 25px;
+        width: 342px;
+    }
+
+    .about__textt {
+        font-size: 12px;
+        width: 355px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .about__img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+
+    .about__heading {
+        font-size: 20px;
+        width: 200px;
+
+    }
+
+    .about__textt {
+        font-size: 12px;
+        width: 200px;
+    }
+}

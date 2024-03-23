@@ -1,0 +1,148 @@
+.hero {
+
+    .container {
+        display: flex;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 48.83px;
+        font-weight: 700;
+        line-height: 57.6px;
+        color: #150C01;
+        width: 528px;
+    }
+
+    &__info {
+        margin-top: 160px;
+    }
+
+    &__div {
+        background: url(../Img/IMG.png) no-repeat;
+        width: 801px;
+        height: 670px;
+        background-size: contain;
+        margin-left: 443px;
+        margin-top: -540px;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-top: 42px;
+        color: #150C01;
+        width: 545px;
+        margin-bottom: 50px;
+    }
+
+    &__btn {
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        color: #FFFFFF;
+        border: 1.5px solid #DC780B;
+        background-color: #DC780B;
+        padding: 21px 40px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            color: #DC780B;
+            background-color: #FFFFFF;
+        }
+    }
+
+    &__button {
+        border: 1.5px solid #DC780B;
+        border-radius: 5px;
+        padding: 21px 40px;
+        margin-left: 30px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        color: #DC780B;
+        background-color: #FFFFFF;
+        cursor: pointer;
+
+        &:hover {
+            color: #FFFFFF;
+            background-color: #DC780B;
+        }
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .hero .container {
+        flex-direction: column;
+    }
+
+    .hero__div {
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .hero__info {
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .hero__div {
+        width: 500px;
+        height: 500px;
+        margin-left: 0px;
+    }
+
+    .hero__info {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .hero__heading {
+        font-size: 35px;
+        width: 380px;
+        line-height: 45px;
+    }
+
+    .hero__text {
+        font-size: 12px;
+        width: 410px;
+    }
+
+    .hero__div {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .hero__div {
+        width: 200px;
+        height: 200px;
+    }
+
+    .hero__text {
+        width: 200px;
+    }
+
+    .hero__heading {
+        font-size: 30px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 398px) {
+    .hero__button {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}

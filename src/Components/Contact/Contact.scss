@@ -1,0 +1,116 @@
+.contact {
+    background-color: #FBF1E7;
+    margin-top: 120px;
+    text-align: center;
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        letter-spacing: 0.2em;
+        color: #DC780B;
+        padding-top: 115px;
+        padding-bottom: 15px;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 40.6px;
+        width: 615px;
+        color: #150C01;
+        margin-left: 17%;
+        margin-bottom: 46px;
+    }
+
+    &__input {
+        border: 1px solid #FFFFFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 40.6px;
+        color: #000000;
+        padding: 30px 558px 30px 32px;
+        border-radius: 10px;
+        margin-bottom: 117px;
+    }
+
+    &__btn {
+        border: 1px solid #DC780B;
+        background-color: #DC780B;
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 40.6px;
+        padding: 30px 57px;
+        border-radius: 10px;
+        margin-left: -17.8%;
+        cursor: pointer;
+
+        &:hover {
+            color: #DC780B;
+            background-color: #FFFFFF;
+        }
+    }
+}
+
+@media only screen and (max-width: 835px) {
+    .contact {
+        text-align: left;
+    }
+
+    .contact__heading {
+        margin-left: 0px;
+    }
+
+    .contact__input {
+        padding: 10px 400px 10px 30px;
+    }
+
+    .contact__btn {
+        padding: 10px 50px;
+        margin-left: -21.6%;
+    }
+}
+
+@media only screen and (max-width: 662px) {
+    .contact__btn {
+        margin-top: -20px;
+        margin-left: 0px;
+        padding: 10px 190px;
+    }
+
+    .contact__input {
+        padding: 10px 230px 10px 10px;
+        margin-bottom: 50px;
+    }
+
+    .contact__heading {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .contact__heading {
+        font-size: 24px;
+        width: 200px;
+    }
+
+    .contact__input {
+        padding: 10px 50px 10px 5px;
+        font-size: 12px;
+    }
+
+    .contact__btn {
+        padding: 10px 83px;
+        font-size: 12px;
+        margin-bottom: 70px;
+    }
+}

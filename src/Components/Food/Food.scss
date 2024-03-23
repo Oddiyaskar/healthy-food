@@ -1,0 +1,90 @@
+.food {
+    margin-top: 106px;
+    text-align: center;
+
+    &__list {
+        display: flex;
+        gap: 90px;
+        margin-left: -50px;
+        margin-top: 44px;
+    }
+
+    &__info {
+        background: url(../Img/Ellipse.svg) no-repeat;
+        width: 88px;
+        height: 88px;
+        background-size: contain;
+        margin-left: 110px;
+    }
+
+    &__img {
+        margin-top: 22px;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        color: #DC780B;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 35px;
+        color: #150C01;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        font-family: 'Philosopher';
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #150C01;
+        padding-top: 33px;
+        padding-bottom: 15px;
+    }
+
+    &__textt {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #150C01;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .food__list {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: -50px;
+        gap: 50px;
+    }
+
+    .food__info {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .food__heading {
+        font-size: 28px;
+    }
+
+    .food__list {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
